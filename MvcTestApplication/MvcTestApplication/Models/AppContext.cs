@@ -5,11 +5,6 @@ using System.Web;
 using System.Data.Entity;
 using MvcTestApplication.Models;
 
-//    public class AppContext : DbContext<br />    {<br />       
- //       public DbSet<Vacancy> Vacancies { get; set; }<br />      
- //       public DbSet<Employer> Employers { get; set; }<br />    }<br />}
-//Н
-
 
 namespace MvcTestApplication.Models
 {

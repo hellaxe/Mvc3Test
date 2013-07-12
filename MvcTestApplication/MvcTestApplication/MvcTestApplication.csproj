@@ -102,7 +102,9 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\AppContext.cs" />
-    <Compile Include="Models\RightGroups.cs" />
+    <Compile Include="Models\RightGroup.cs" />
+    <Compile Include="Models\Rubric.cs" />
+    <Compile Include="Models\TheNewsFromUser.cs" />
     <Compile Include="Models\UserID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,9 +8,11 @@ using MvcTestApplication.Models;
 
 namespace MvcTestApplication.Models
 {
-    public class AppContext
+    public class AppContext : DbContext
     {
-        public DbSet<UserID> UserID { get; set; }
-        public DbSet<RightGroups> RightGroups { get; set; }
+        public DbSet<UserID> UserIDs { get; set; }
+        public DbSet<RightGroup> RightGroups { get; set; }
+        public DbSet<Rubric> Rubrics { get; set; }
+        public DbSet<TheNewsFromUser> News { get; set; }
     }
 }

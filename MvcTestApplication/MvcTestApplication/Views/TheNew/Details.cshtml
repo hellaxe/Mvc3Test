@@ -1,0 +1,25 @@
+﻿@model MvcTestApplication.Models.TheNew
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>TheNew</legend>
+
+    <div class="display-label">CreateTime</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreateTime)
+    </div>
+
+    <div class="display-label">Rubric</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Rubric)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

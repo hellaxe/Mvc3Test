@@ -10,9 +10,8 @@ namespace MvcTestApplication.Models
 {
     public class AppContext : DbContext
     {
-        public DbSet<UserID> UserIDs { get; set; }
-        public DbSet<RightGroup> RightGroups { get; set; }
-        public DbSet<Rubric> Rubrics { get; set; }
-        public DbSet<TheNewsFromUser> News { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<TheNew> TheNew { get; set; }
+        public DbSet<Comment> Comment { get; set; }
     }
 }

@@ -96,16 +96,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TheNewController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\AppContext.cs" />
-    <Compile Include="Models\RightGroup.cs" />
-    <Compile Include="Models\Rubric.cs" />
-    <Compile Include="Models\TheNewsFromUser.cs" />
-    <Compile Include="Models\UserID.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\TheNew.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,7 +175,9 @@
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -202,6 +206,21 @@
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\Details.cshtml" />
+    <Content Include="Views\User\Create.cshtml" />
+    <Content Include="Views\User\Edit.cshtml" />
+    <Content Include="Views\User\Delete.cshtml" />
+    <Content Include="Views\TheNew\Index.cshtml" />
+    <Content Include="Views\TheNew\Details.cshtml" />
+    <Content Include="Views\TheNew\Create.cshtml" />
+    <Content Include="Views\TheNew\Edit.cshtml" />
+    <Content Include="Views\TheNew\Delete.cshtml" />
+    <Content Include="Views\Comment\Index.cshtml" />
+    <Content Include="Views\Comment\Details.cshtml" />
+    <Content Include="Views\Comment\Create.cshtml" />
+    <Content Include="Views\Comment\Edit.cshtml" />
+    <Content Include="Views\Comment\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

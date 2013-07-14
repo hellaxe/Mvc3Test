@@ -10,6 +10,7 @@ namespace MvcTestApplication.Models
 {
     public class AppContext : DbContext
     {
+        //коммент для комита
         public DbSet<User> User { get; set; }
         public DbSet<TheNew> TheNew { get; set; }
         public DbSet<Comment> Comment { get; set; }

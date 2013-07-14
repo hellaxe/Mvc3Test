@@ -11,7 +11,7 @@ namespace MvcTestApplication.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Новостной Портал";
-
+            // nu ohuet' teper'
             return View();
         }
 

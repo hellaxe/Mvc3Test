@@ -5,11 +5,11 @@ using System.Web;
 
 namespace MvcTestApplication.Models
 {
-    public class UserID
+    public class Comment
     {
         public int ID { get; set; }
-        public int OldPassword { get; set; }
-        public int NewPassword { get; set; }
-        public int Email { get; set; }
+        public string Name { get; set; }
+        public string Title { get; set; }
+        public string[] Text { get; set; }
     }
 }
